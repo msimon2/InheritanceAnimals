@@ -11,7 +11,7 @@ public class Runner
 		 animals.add("robin");
 		 for (String c : animals)
 			 {
-			  System.out.println(c);
+			  System.out.println(c + " says " + Animal.makesNoise());
 			  System.out.println();
 			 }
 		}
